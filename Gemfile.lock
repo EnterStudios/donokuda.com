@@ -6,6 +6,9 @@ GEM
       multi_json (~> 1.0)
     addressable (2.3.2)
     chunky_png (1.2.6)
+    coffee-filter (0.1.1)
+      coffee-script (>= 2.2.0)
+      haml (>= 3.0.18)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -124,6 +127,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  coffee-filter
   middleman (~> 3.0.5)
   middleman-favicon-maker
   middleman-livereload
