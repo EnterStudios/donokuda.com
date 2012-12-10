@@ -16,16 +16,23 @@
     -#Favicon Options:
     -#Update favicon_base.png in /source and middleman-favicon-maker will generate all the versions you need on 'middleman build'
     -#OR, place favicon.ico and apple-touch-icon.png in /source and deactivate :favicon_maker in config.rb
+    :erb
+      <!-- Typekit stuff -->
+      <script type="text/javascript" src="//use.typekit.net/snx5zhl.js"></script>
+      <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 
     = javascript_include_tag "vendor/modernizr-2.6.1.min"
     = stylesheet_link_tag "site"
   %body
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
-    %header
-      Don Okuda
-      %br
-      %span Graphic Designer &amp; Front-End Developer
+    %header.infotag
+      - if content_for? :headerInfoTag
+        = yield_content :headerInfoTag
+      - else
+        Don Okuda
+        %br
+        %span Graphic Designer &amp; Front-End Developer
     %div{:role => "main", :class => "main"}= yield
     %footer
 
