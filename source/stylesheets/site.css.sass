@@ -91,6 +91,7 @@ strong
  
 
 #selectedWork
+  min-width: 960px
   position: static
   h3
     position: absolute
@@ -101,7 +102,7 @@ strong
     li
       display: block
       float: left
-      width: 25%
+      width: 33.33%
       a.work-preview
         background: rgba(#eeeeee, 0.7)
         display: block
@@ -110,12 +111,16 @@ strong
         &:hover
           opacity: 1
           img
-            opacity: 0.3
+            opacity: 0.1
         img
           height: auto
           position: relative
           width: 100%
           z-index: 1
+          -webkit-transition: opacity 0.25s
+          -moz-transition: opacity 0.25s
+          -o-transition: opacity 0.25s
+          transition: opacity 0.25s
         .description
           position: absolute
           text-align: center
