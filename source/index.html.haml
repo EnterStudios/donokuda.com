@@ -3,15 +3,16 @@ title: Graphic Design &amp; Web Development
 description:
 ---
 
-#hero.background.asphalt
+#about.whiteBg
   .wrapper
-    %h1 Hello! I am a Graphic Designer and Front-End Developer based in Los Angeles. Nice to meet you!
+    = image_tag "me.jpg", class: 'portrait'
+    %h1 "Hello." A Brief Introduction.
+    %h3 BORN: 1988 / CURRENT CITY: LOS ANGELES, CA
+    %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     %p I am currently employed at #{ link_to "LEMUR Heavy Industries", "http://www.lemurheavy.com", class: 'lemurlink' } in Culver City, California.
-    = link_to "", class: "buttonStyle" do
-      %strong VIEW MY WORK
     = link_to "Get to know more about me...", ""
 
-#selectedWork
+#selectedWork.whiteBg
   %h3.headerTag FEATURED WORK
   %ul
     - 9.times do
