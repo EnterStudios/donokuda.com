@@ -16,4 +16,16 @@ description:
   %ul
     - 8.times do
       %li
-        = image_tag 'standin-workpreview.jpg'
+        = link_to "", class: 'work-preview' do
+          .description
+            %h2 
+              Project Name
+              %br
+              \~
+            %p
+              %strong
+                2011
+                %br
+                PRINT
+          = image_tag 'standin-workpreview.jpg'
+

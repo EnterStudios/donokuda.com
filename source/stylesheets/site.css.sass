@@ -32,13 +32,19 @@ h1
   font-weight: 400
   text-align: center
 
+h2
+  font-family: "ff-tisa-web-pro", Georgia, Times New Roman, serif
+  font-weight: 400
+  font-style: italic
+  text-align: center
+
 h3
   color: #bfbfbf
   font-size: 13px
   &.headerTag
     background-color: #f6f6f6
     position: absolute
-    padding: 5px 30px 4px 40px
+    padding: 7px 30px 4px 40px
 
 strong
   font-weight: 600
@@ -61,17 +67,6 @@ strong
   padding: 5px 10px
   text-decoration: none
 
-#hero
-  padding: 200px 0 110px
-  text-align: center
-  h1
-    margin-top: 0
-  .buttonStyle
-    font-size: 13px
-    margin-right: 10px
-  .lemurlink
-    color: #ffa800
- 
 #miniHeader
   background: #FFF
   font-size: 13px
@@ -83,6 +78,18 @@ strong
   .lighter
     color: #9A9A9A
 
+#hero
+  padding: 200px 0 110px
+  text-align: center
+  h1
+    margin-top: 0
+  .buttonStyle
+    font-size: 13px
+    margin-right: 10px
+  .lemurlink
+    color: #ffa800
+ 
+
 #selectedWork
   position: static
   ul
@@ -91,10 +98,28 @@ strong
     li
       display: block
       float: left
-      line-height: 0
       width: 25%
-      img
-        border: 1px solid rgba(#FFF, 0.5)
-        border-bottom: none
-        height: auto
-        width: 100%
+      a.work-preview
+        background: rgba(#eeeeee, 0.7)
+        display: block
+        overflow: hidden
+        position: relative
+        &:hover
+          opacity: 1
+          img
+            opacity: 0.3
+        img
+          height: auto
+          position: relative
+          width: 100%
+          z-index: 1
+        .description
+          position: absolute
+          text-align: center
+          top: 33%
+          width: 100%
+          h2
+            font-size: 24px
+          p
+            color: rgba(#332f2c, 0.8)
+            font-size: 12px
