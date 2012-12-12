@@ -1,3 +1,6 @@
+# Directory-indexes (AKA Pretty URLS)
+activate :directory_indexes
+
 #Markdown
 set :markdown_engine, :redcarpet
 
