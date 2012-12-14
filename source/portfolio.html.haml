@@ -6,12 +6,12 @@ title: Portfolio
   Don Okuda
   %span.lighter Selected Work
   %ul#portfolioNav
-    %li.pagination.active= link_to "", "#"
-    - 5.times do
+    -# NOTE: The following should be generated in 'site.js.coffee'
+      %li.pagination.active= link_to "", "#"
       %li.pagination= link_to "", "#"
 
 #portfolio
-  - 5.times do
+  - 6.times do
     .workItem
       .description_wr.whiteBg.textured
         .description.wrapper
