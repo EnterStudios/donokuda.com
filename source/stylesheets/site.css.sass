@@ -194,6 +194,26 @@ strong
   ul.mainContact + h3
     text-align: center
 
+#portfolioNav
+  margin: 10px 0 0
+  overflow: hidden
+  padding: 0
+  .pagination
+    @include borderRad(999px)
+    background: #e2e2e2
+    float: left
+    height: 9px
+    list-style-type: none
+    width: 9px
+    ~ .pagination
+      margin-left: 12px
+    &:hover
+      background: #666
+      cursor: pointer
+    &.active
+      background: #a6a6a6
+
+
 #portfolio
   .workItem
     background: #e6e6e6

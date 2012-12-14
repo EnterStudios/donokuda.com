@@ -1,6 +1,15 @@
 ---
 title: Portfolio
 ---
+
+- content_for :headerInfoTag do
+  Don Okuda
+  %span.lighter Selected Work
+  %ul#portfolioNav
+    %li.pagination.active= link_to "", "#"
+    - 5.times do
+      %li.pagination= link_to "", "#"
+
 #portfolio
   - 5.times do
     .workItem
