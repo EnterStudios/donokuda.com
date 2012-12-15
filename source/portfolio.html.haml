@@ -17,22 +17,23 @@ title: Portfolio
       .description_wr.whiteBg.textured
         .description.wrapper
           %hgroup.centeredTitles.whiteBg.textured
-            %h1= project.name
+            %h1{ style: "color: #{ project.main_color if project.main_color.present? }" }
+              = project.name
             %h3
               %ul
-                - unless project.type == nil
+                - if project.type.present?
                   %li TYPE: #{ project.type.upcase }
-                - unless project.year == nil
+                - if project.year.present?
                   %li YEAR: #{ project.year }
-                - unless project.client == nil
+                - if project.client.present?
                   %li CLIENT: #{ project.client.upcase }
-                - unless project.role == nil
+                - if project.role.present?
                   %li ROLE: #{ project.role.upcase }
           %p= project.description
 
           %p
-            = link_to "Visit Site", project.url unless project.url == nil
+            = link_to "Visit Site", project.url if project.url.present?
             = link_to "Back to Main", "/"
       %ul.examples
         - project.images.each do |image|
-          = image_tag image.image_url unless image.image_url == nil
+          = image_tag "portfolio/#{ image.image_url }" if image.image_url.present?
