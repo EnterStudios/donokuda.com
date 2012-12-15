@@ -6,10 +6,9 @@ title: Portfolio
   Don Okuda
   %span.lighter Selected Work
   %ul#portfolioNav
-    -# NOTE: The following should be generated in 'site.js.coffee'
-      (This may get refactored back to the view file)
-      %li.pagination.active= link_to "", "#"
+    - data.portfolio.projects.each do
       %li.pagination= link_to "", "#"
+      -# %li.pagination.active= link_to "", "#"
 
 #portfolio
   - data.portfolio.projects.each do |project|
