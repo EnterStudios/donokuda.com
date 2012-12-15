@@ -7,6 +7,7 @@ title: Portfolio
   %span.lighter Selected Work
   %ul#portfolioNav
     -# NOTE: The following should be generated in 'site.js.coffee'
+      (This may get refactored back to the view file)
       %li.pagination.active= link_to "", "#"
       %li.pagination= link_to "", "#"
 
@@ -18,15 +19,20 @@ title: Portfolio
           %hgroup.centeredTitles.whiteBg.textured
             %h1= project.name
             %h3
-              TYPE: #{ project.type } /
-              YEAR: #{ project.year } /
-              CLIENT: #{ project.client } /
-              ROLE: #{ project.role }
+              %ul
+                - unless project.type == nil
+                  %li TYPE: #{ project.type.upcase }
+                - unless project.year == nil
+                  %li YEAR: #{ project.year }
+                - unless project.client == nil
+                  %li CLIENT: #{ project.client.upcase }
+                - unless project.role == nil
+                  %li ROLE: #{ project.role.upcase }
           %p= project.description
 
           %p
-            = link_to "Visit Site", project.url
+            = link_to "Visit Site", project.url unless project.url == nil
             = link_to "Back to Main", "/"
       %ul.examples
         - project.images.each do |image|
-          = image_tag image.image_url
+          = image_tag image.image_url unless image.image_url == nil

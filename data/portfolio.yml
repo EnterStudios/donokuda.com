@@ -1,14 +1,12 @@
 projects:
 
-  - name: 'A Secret Set with Waters'
-    type:
-    year:
-    client:
-    role:
+  - name: A Secret Set with Waters
+    type: Print
+    year: 2011
+    client: Audyssey
+    role: Design
     description:
     url:
     images:
       - image_url: 
-      - image_url:
-      - image_url:
    

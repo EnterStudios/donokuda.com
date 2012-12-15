@@ -215,6 +215,7 @@ strong
 
 
 #portfolio
+  .detail
   .workItem
     background: #e6e6e6
     .description_wr
@@ -224,6 +225,13 @@ strong
         padding: 100px 0 1em
         h3
           margin-bottom: 0
+          ul 
+            padding: 0
+            li
+              list-style-type: none
+              display: inline
+              ~ li:before
+                content: " / "
         + p
           margin-top: 0
           padding-top: 1em
