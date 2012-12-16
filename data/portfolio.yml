@@ -15,7 +15,7 @@ projects:
   # --- YEAR 2012 --------------------------------------------------
 
   - name: Lowe's Plant A Tweet
-    main_color: '#62ae94'
+    main_color: '#25addf'
     type: Web
     year: 2012
     client: Lowe's
@@ -26,7 +26,7 @@ projects:
       - image_url: waters.jpg
 
   - name: Tandem Stock & Vault
-    main_color: '#62ae94'
+    main_color: '#0AE'
     type: Web
     year: 2012
     client: Lowe's
@@ -52,7 +52,7 @@ projects:
   # --- YEAR 2010 --------------------------------------------------
    
   - name: Modeselektor At The El Rey Theatre
-    main_color: '#62ae94'
+    main_color: '#90663c'
     type: Print
     year: 2010
     client: Personal
@@ -63,7 +63,7 @@ projects:
       - image_url: waters.jpg
 
   - name: Preloader
-    main_color: '#62ae94'
+    main_color: '#280000'
     type: Print
     year: 2010
     client: Personal
@@ -76,7 +76,7 @@ projects:
   # --- YEAR 2009 --------------------------------------------------
 
   - name: 'The Pacific'
-    main_color: '#62ae94'
+    main_color: '#a45248'
     type: Motion Graphics
     year: 2009
     client: Personal
@@ -87,7 +87,7 @@ projects:
       - image_url: waters.jpg
 
   - name: 'National Museum of Nuclear Science Rebrand'
-    main_color: '#62ae94'
+    main_color: '#ffcb45'
     type: Print
     year: 2009
     client: Personal
@@ -98,7 +98,7 @@ projects:
       - image_url: waters.jpg
 
   - name: 'STFU: A Design Publication'
-    main_color: '#62ae94'
+    main_color: '#333'
     type: Print
     year: 2009
     client: Personal
@@ -111,7 +111,7 @@ projects:
   # --- YEAR 2008 --------------------------------------------------
 
   - name: "Absolut Choice"
-    main_color: '#62ae94'
+    main_color: '#00abca'
     type: Motion Graphics
     year: 2008
     client: Personal
@@ -122,7 +122,7 @@ projects:
       - image_url: waters.jpg
 
   - name: 'Fail: A Publication'
-    main_color: '#62ae94'
+    main_color: '#c81518'
     type: Print
     year: 2008
     client: Personal
@@ -133,7 +133,7 @@ projects:
       - image_url: waters.jpg
 
   - name: "That's Not Funny Film Festival Posters"
-    main_color: '#62ae94'
+    main_color: '#fab325'
     type: Print
     year: 2008
     client: Personal
@@ -144,7 +144,7 @@ projects:
       - image_url: waters.jpg
 
   - name: "Balloon Man"
-    main_color: '#62ae94'
+    main_color: '#1659bd'
     type: Print
     year: 2008
     client: Personal
