@@ -36,9 +36,9 @@ $(document).ready ->
 
       # Project Pagination Scrollspy
       #
-      $('.project').map ->
-        projectWindowLocations.push $(this).offset().top
-
+      $(window).load ->
+        $('#portfolio').children('.project').map (index, value)->
+          projectWindowLocations.push $(this).offset().top
 
       lastScrolledProjectLength = 0
       setScrolledProjectLength = (newValue) ->
@@ -46,7 +46,6 @@ $(document).ready ->
 
       $(window).bind 'scroll', ->
         scrolledProject = new Array
-        console.log "LatScrollProject Length: " + scrolledProject.length
 
         $(projectWindowLocations).each (index, value) ->
           scrolledProject.push true if $(window).scrollTop() >= value
