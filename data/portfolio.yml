@@ -1,16 +1,42 @@
 projects:
   # NOTE: THIS IS AN EXAMPLE OF A PROJECT
   #
-  # - name: A Secret Set with Waters
-    # main_color: '#62ae94'
-    # type: Print
+  # - name: "A Secret Set with Waters"
+    # main_color: "#62ae94"
+    # type: "Print"
     # year: 2011
-    # client: Audyssey
+    # client: "Audyssey"
     # role: Design
-    # description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    # description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     # url:
     # images:
-      # - image_url: waters.jpg
+      # - image_url: "waters.jpg"
+
+  # --- YEAR 2012 --------------------------------------------------
+
+  - name: Lowe's Plant A Tweet
+    main_color: '#62ae94'
+    type: Web
+    year: 2012
+    client: Lowe's
+    role: Front-End Development
+    description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    url:
+    images:
+      - image_url: waters.jpg
+
+  - name: Tandem Stock & Vault
+    main_color: '#62ae94'
+    type: Web
+    year: 2012
+    client: Lowe's
+    role: Front-End Development
+    description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    url:
+    images:
+      - image_url: waters.jpg
+   
+  # --- YEAR 2011 --------------------------------------------------
 
   - name: A Secret Set with Waters
     main_color: '#62ae94'
@@ -22,28 +48,112 @@ projects:
     url:
     images:
       - image_url: waters.jpg
-      - image_url: waters.jpg
-      - image_url: waters.jpg
+
+  # --- YEAR 2010 --------------------------------------------------
    
-  - name: Action Tobacco Prevention
+  - name: Modeselektor At The El Rey Theatre
     main_color: '#62ae94'
     type: Print
-    year: 2011
-    client: Audyssey
+    year: 2010
+    client: Personal
     role: Design
-    description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    description: A show poster for Modeselektor's show at The El Rey Theatre.
     url:
     images:
       - image_url: waters.jpg
 
-  - name: PolyTeXnic
+  - name: Preloader
     main_color: '#62ae94'
     type: Print
-    year: 2011
-    client: Audyssey
+    year: 2010
+    client: Personal
     role: Design
-    description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    description: A bunch of hipster stuff.
     url:
     images:
       - image_url: waters.jpg
-   
+
+  # --- YEAR 2009 --------------------------------------------------
+
+  - name: 'The Pacific'
+    main_color: '#62ae94'
+    type: Motion Graphics
+    year: 2009
+    client: Personal
+    role: Design
+    description: A bunch of hipster stuff.
+    url:
+    images:
+      - image_url: waters.jpg
+
+  - name: 'National Museum of Nuclear Science Rebrand'
+    main_color: '#62ae94'
+    type: Print
+    year: 2009
+    client: Personal
+    role: Design
+    description: A bunch of hipster stuff.
+    url:
+    images:
+      - image_url: waters.jpg
+
+  - name: 'STFU: A Design Publication'
+    main_color: '#62ae94'
+    type: Print
+    year: 2009
+    client: Personal
+    role: Design
+    description: A bunch of hipster stuff.
+    url:
+    images:
+      - image_url: waters.jpg
+
+  # --- YEAR 2008 --------------------------------------------------
+
+  - name: "Absolut Choice"
+    main_color: '#62ae94'
+    type: Motion Graphics
+    year: 2008
+    client: Personal
+    role: Design, Animation
+    description: "A publication of curated articles that typographically expresses examples of failure and how we attempt to hide it."
+    url:
+    images:
+      - image_url: waters.jpg
+
+  - name: 'Fail: A Publication'
+    main_color: '#62ae94'
+    type: Print
+    year: 2008
+    client: Personal
+    role: Design
+    description: "A publication of curated articles that typographically expresses examples of failure and how we attempt to hide it."
+    url:
+    images:
+      - image_url: waters.jpg
+
+  - name: "That's Not Funny Film Festival Posters"
+    main_color: '#62ae94'
+    type: Print
+    year: 2008
+    client: Personal
+    role: Design
+    description: "A publication of curated articles that typographically expresses examples of failure and how we attempt to hide it."
+    url:
+    images:
+      - image_url: waters.jpg
+
+  - name: "Balloon Man"
+    main_color: '#62ae94'
+    type: Print
+    year: 2008
+    client: Personal
+    role: Design
+    description: "A publication of curated articles that typographically expresses examples of failure and how we attempt to hide it."
+    url:
+    images:
+      - image_url: waters.jpg
+
+  # --- YEAR 2007 --------------------------------------------------
+  # NOTHING!
+  
