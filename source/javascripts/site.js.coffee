@@ -46,13 +46,15 @@ $(document).ready ->
 
       $(window).bind 'scroll', ->
         scrolledProject = new Array
+        console.log "LatScrollProject Length: " + scrolledProject.length
 
         $(projectWindowLocations).each (index, value) ->
           scrolledProject.push true if $(window).scrollTop() >= value
 
         if scrolledProject.length isnt lastScrolledProjectLength
           setScrolledProjectLength(scrolledProject.length)
-          $('#portfolioNav').children('.pagination').removeClass('active')
-          $('#portfolioNav').children('.pagination').eq([scrolledProject.length] - 1).addClass('active')
+          unless scrolledProject.length is 0
+            $('#portfolioNav').children('.pagination').removeClass('active')
+            $('#portfolioNav').children('.pagination').eq([scrolledProject.length] - 1).addClass('active')
 
   portfolio.setup()
