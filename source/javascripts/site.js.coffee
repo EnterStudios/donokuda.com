@@ -24,15 +24,8 @@ $(document).ready ->
         selectedProject = $('#portfolioNav').children('.pagination').index(this)
         $(window).scrollTo $('.project')[selectedProject], 500, offset: 1
 
-      # Set up active class selection
+      # Project Pagination Scrollspy
       #
-      # Plan: Check current window position
-      # - Get list of locations
-      # - Find which project position is in betweeen
-      # - Position must be eq or more than node ypos but less than next
-      #   node ypos
-      # - Remove 'active' class on nodes with the active class
-      # - Place 'active' class on node that matches pos criteria.
       $('.project').map ->
         projectWindowLocations.push $(this).offset().top
 
