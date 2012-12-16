@@ -35,4 +35,4 @@ title: Portfolio
             = link_to "Back to Main", "/"
       %ul.examples
         - project.images.each do |image|
-          = image_tag "portfolio/#{ image.image_url }" if image.image_url.present?
+          %li= image_tag "portfolio/#{ image.image_url }" if image.image_url.present?
