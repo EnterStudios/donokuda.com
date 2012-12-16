@@ -4,10 +4,10 @@ title: Portfolio
 
 - content_for :headerInfoTag do
   Don Okuda
-  %span.lighter Selected Work
+  %span.lighter.j_portfolioMiniHeaderTitle Selected Work
   %ul#portfolioNav
-    - data.portfolio.projects.each do
-      %li.pagination= link_to "", "#"
+    - data.portfolio.projects.each do |project|
+      %li.pagination{ data: { name: project.name } }= link_to "", "#"
       -# %li.pagination.active= link_to "", "#"
 
 #portfolio

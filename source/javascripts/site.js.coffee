@@ -17,6 +17,16 @@ $(document).ready ->
       #
       $('#portfolioNav').children('.pagination').first().addClass('active')
 
+      # Set up hover event on pagination to preview name of project
+      #
+      $('#portfolioNav').children('.pagination').mouseenter ->
+        console.log "Mouse Enter"
+        $('.j_portfolioMiniHeaderTitle').text($(this).data('name'))
+
+      $('#portfolioNav').children('.pagination').mouseleave ->
+        console.log "Mouse Leave"
+        $('.j_portfolioMiniHeaderTitle').text 'Selected Work'
+      
       # Set up ScrollTo events to project pagination in miniheader
       #
       $('#portfolioNav').children('.pagination').click ->
