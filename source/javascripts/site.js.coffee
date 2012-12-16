@@ -6,24 +6,50 @@ window.log = (args...) =>
 
 $(document).ready ->
 
+  projectWindowLocations = new Array
+
   portfolio =
 
     setup: ->
       console.log "start setup"
 
-      # Get number of pieces
+      # Put 'active' class on first pagination
       #
-      # numOfWorks = $('#portfolio').children('.workItem').length
-      # console.log("Number of works: " + numOfWorks)
-      # for n in [1..numOfWorks]
-        # $('#portfolioNav').append("<li class='pagination'><a href='#'></a></li>")
+      $('#portfolioNav').children('.pagination').first().addClass('active')
 
-      $('#portfolioNav').children('.pagination').click (e) ->
+      # Set up ScrollTo events to project pagination in miniheader
+      #
+      $('#portfolioNav').children('.pagination').click ->
 
         selectedProject = $('#portfolioNav').children('.pagination').index(this)
-        console.log "Scroll to: "
-        console.log $('#portfolioNav').children()[selectedProject]
-        $(window).scrollTo $('.project')[selectedProject], 500
+        $(window).scrollTo $('.project')[selectedProject], 500, offset: 1
 
+      # Set up active class selection
+      #
+      # Plan: Check current window position
+      # - Get list of locations
+      # - Find which project position is in betweeen
+      # - Position must be eq or more than node ypos but less than next
+      #   node ypos
+      # - Remove 'active' class on nodes with the active class
+      # - Place 'active' class on node that matches pos criteria.
+      $('.project').map ->
+        projectWindowLocations.push $(this).offset().top
+
+
+      lastScrolledProjectLength = 0
+      setScrolledProjectLength = (newValue) ->
+        lastScrolledProjectLength = newValue
+
+      $(window).bind 'scroll', ->
+        scrolledProject = new Array
+
+        $(projectWindowLocations).each (index, value) ->
+          scrolledProject.push true if $(window).scrollTop() >= value
+
+        if scrolledProject.length isnt lastScrolledProjectLength
+          setScrolledProjectLength(scrolledProject.length)
+          $('#portfolioNav').children('.pagination').removeClass('active')
+          $('#portfolioNav').children('.pagination').eq([scrolledProject.length] - 1).addClass('active')
 
   portfolio.setup()
