@@ -22,8 +22,8 @@ projects:
     role: Design, Front-End Development
     description: "Coveralls is a utility for developers keeping track of their code coverage across various projects. Did design and illustrations for the homepage and various internal elements. Work done at LEMUR Heavy Industries."
     url: "http://coveralls.io"
+    preview_url: coveralls_preview.jpg
     images:
-      - preview_url: coveralls_preview.jpg
       - image_url: coveralls_01.png
       - image_url: coveralls_02.png
       - image_url: coveralls_03.png
@@ -37,8 +37,8 @@ projects:
     role: Front-End Development
     description: "HTML/CSS3 Front-End Development done for Lowe's social marketing site: Plant A Tweet. The purpose of the site was to have your plant retweeted and repinned as many times as possible to get a $10 Gift Card (\"while supplies last, no purchase neccessary\"). CSS3 Media Queries were used for mobile responsive design (both for iPhone and iPad resolutions). Various CSS3 gradients were used as well for background elements as it would change based on the time of day. Work done at LEMUR Heavy Industries in collaboration with UseAll5 and BBDO."
     url: "http://plantatweet.com"
+    preview_url: pat_preview.jpg
     images:
-      - preview_url: pat_preview.jpg
       - image_url: pat_01.png
       - image_url: pat_03.png
 
@@ -50,8 +50,8 @@ projects:
     role: Design
     description: "As Tandem Stills + Motion and its archive turns 2-years-old, the new homepage needed to showcase exactly what makes Tandem stand out as the best photography provider. The solution: Put images from the Tandem collection front and center. Worked on the design for the new Tandem Stock homepage as well as the marketing page for Tandem Vault. Work done at LEMUR Heavy Industries."
     url: "http://tandemstock.com"
+    preview_url: tandem_preview.jpg
     images:
-      - preview_url: tandem_preview.jpg
       - image_url: tandem_01.png
       - image_url: tandem_02.png
    
@@ -65,8 +65,8 @@ projects:
     role: Design
     description: "An illustration done for an invite-only event hosted by Audyssey called TheNeighborhood.tv. The illustration depicts my interpretation of Waters' music: Lo-fi sounds with motifs of journies and tribulations. It was also made into buttons and little promo cards! Sweet!"
     url:
+    preview_url: waters_preview.jpg
     images:
-      - preview_url: waters_preview.jpg
       - image_url: waters.jpg
       - image_url: waters_02.jpg
 
@@ -80,8 +80,8 @@ projects:
     role: Design
     description: "A show poster for Modeselektor's show at The El Rey Theatre. Depicts the monkey trademark of Modeselektor and the playfulness of their music along with their wide range of influences (represented as different cultural references.)"
     url:
+    preview_url: modeselektor_preview.jpg
     images:
-      - preview_url: modeselektor_preview.jpg
       - image_url: modeselektor.jpg
 
   - name: PRLDR
@@ -92,8 +92,8 @@ projects:
     role: Design
     description: "A bunch of hipster stuff. Produced at Otis College of Art & Design"
     url:
+    preview_url: preloader_preview.jpg
     images:
-      - preview_url: preloader_preview.jpg
       - image_url: preloader_01.jpg
       - image_url: preloader_02.jpg
       - image_url: preloader_03.jpg
@@ -111,8 +111,8 @@ projects:
     role: Design, Animation
     description: A title sequence concept for the television show The Pacific. I played around with the idea of juxtaposing peaceful Hokusai painting with war photos. It's my interpretation of the disruption that war brings to both sides fighting. Produced at Otis College of Art & Design
     url: "http://vimeo.com/10993873"
+    preview_url: thepacific_preview.jpg
     images:
-      - preview_url: thepacific_preview.jpg
       - image_url: thepacific_01.jpg
       - image_url: thepacific_02.jpg
       - image_url: thepacific_03.jpg
@@ -132,8 +132,8 @@ projects:
     role: Design
     description: A conceptual rebrand for the National Museum of Nuclear Science. Produced at Otis College of Art & Design
     url:
+    preview_url: nuclear_preview.jpg
     images:
-      - preview_url: nuclear_preview.jpg
       - image_url: nuclear_01.png
       - image_url: nuclear_02.png
       - image_url: nuclear_03.png
@@ -150,8 +150,8 @@ projects:
     description: A bunch of hipster stuff. Produced at Otis College of Art & Design
 
     url:
+    preview_url: stfu_preview.jpg
     images:
-      - preview_url: stfu_preview.jpg
       - image_url: stfu_01.jpg
       - image_url: stfu_02.jpg
       - image_url: stfu_03.jpg
@@ -173,8 +173,8 @@ projects:
     role: Design, Animation
     description: "A short piece promoting the many kind of drink recipes you can make with Absolut Vodka. Based on a 'drink finder' feature Absolut had on their site at the time. Produced at Otis College of Art & Design"
     url: "https://vimeo.com/10974896"
+    preview_url: absolut_preview.jpg
     images:
-      - preview_url: absolut_preview.jpg
       - image_url: absolut_01.jpg
       - image_url: absolut_02.jpg
       - image_url: absolut_03.jpg
@@ -193,8 +193,8 @@ projects:
     role: Design
     description: "A publication of curated articles that typographically expresses examples of failure and how we attempt to hide it. Produced at Otis College of Art & Design"
     url:
+    preview_url: fail_preview.jpg
     images:
-      - preview_url: fail_preview.jpg
       - image_url: fail_01.jpg
       - image_url: fail_02.jpg
       - image_url: fail_03.jpg
@@ -213,8 +213,8 @@ projects:
     role: Design
     description: "Designs promoting a curated film festival that featured movies with comedy actors performing dramatic roles. Movies included Eternal Sunshine of the Spotless Mind (Jim Carrey), The Butterfly Effect (Ashton Kutcher), and One Hour Photo (Robin Williams). Produced at Otis College of Art & Design"
     url:
+    preview_url: filmfestival_preview.jpg
     images:
-      - preview_url: filmfestival_preview.jpg
       - image_url: filmfestival_01.jpg
       - image_url: filmfestival_02.jpg
       - image_url: filmfestival_03.jpg
@@ -228,8 +228,8 @@ projects:
     role: Design
     description:
     url:
+    preview_url: balloonman_preview.jpg
     images:
-      - preview_url: balloonman_preview.jpg
       - image_url: balloonman.jpg
 
   # --- YEAR 2007 --------------------------------------------------

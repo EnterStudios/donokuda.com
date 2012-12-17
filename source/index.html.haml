@@ -22,18 +22,31 @@ description:
 #selectedWork.whiteBg
   %h3.headerTag FEATURED WORK
   %ul
-    - 12.times do
+    - data.portfolio.projects.each do |project|
       %li
-        = link_to "", class: 'work-preview' do
+        = link_to "/portfolio", class: 'work-preview' do
           .description
-            %h2 
-              Action Tobacco Prevention
+            %h2= project.name
             %p
               %strong
-                2011
+                = project.year
                 %br
-                PRINT
-          = image_tag 'standin-workpreview.jpg'
+                = project.type.upcase
+          = image_tag "portfolio/#{ project.preview_url }"
+
+    -# Reference
+      - 12.times do
+        %li
+          = link_to "", class: 'work-preview' do
+            .description
+              %h2 
+                Action Tobacco Prevention
+              %p
+                %strong
+                  2011
+                  %br
+                  PRINT
+            = image_tag 'standin-workpreview.jpg'
 
 -# TODO: Career Timeline interactive funness
   #careerTimeline.whiteBg
