@@ -108,7 +108,7 @@ projects:
     images:
       - image_url: waters.jpg
 
-  - name: 'STFU: A Design Publication'
+  - name: 'STFU: A Design Manifesto'
     main_color: '#333'
     type: Print
     year: 2009
