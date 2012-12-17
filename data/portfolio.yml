@@ -126,7 +126,12 @@ projects:
     description: A conceptual rebrand for the National Museum of Nuclear Science. Produced at Otis College of Art & Design
     url:
     images:
-      - image_url: waters.jpg
+      - image_url: nuclear_01.png
+      - image_url: nuclear_02.png
+      - image_url: nuclear_03.png
+      - image_url: nuclear_04.png
+      - image_url: nuclear_05.png
+      - image_url: nuclear_06.png
 
   - name: 'STFU: A Design Manifesto'
     main_color: '#333'
