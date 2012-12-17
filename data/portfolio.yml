@@ -23,7 +23,10 @@ projects:
     description: "Coveralls is a utility for developers keeping track of their code coverage across various projects. Did design and illustrations for the homepage and various internal elements. Work done at LEMUR Heavy Industries."
     url: "http://coveralls.io"
     images:
-      - image_url: waters.jpg
+      - image_url: coveralls_01.png
+      - image_url: coveralls_02.png
+      - image_url: coveralls_03.png
+      - image_url: coveralls_04.png
 
   - name: Lowe's Plant A Tweet
     main_color: '#25addf'
@@ -34,7 +37,8 @@ projects:
     description: "HTML/CSS3 Front-End Development done for Lowe's social marketing site: Plant A Tweet. The purpose of the site was to have your plant retweeted and repinned as many times as possible to get a $10 Gift Card (\"while supplies last, no purchase neccessary\"). CSS3 Media Queries were used for mobile responsive design (both for iPhone and iPad resolutions). Various CSS3 gradients were used as well for background elements as it would change based on the time of day. Work done at LEMUR Heavy Industries."
     url: "http://plantatweet.com"
     images:
-      - image_url: waters.jpg
+      - image_url: pat_01.png
+      - image_url: pat_03.png
 
   - name: Tandem Stock & Vault Homepage
     main_color: '#0AE'
@@ -45,7 +49,8 @@ projects:
     description: "As Tandem Stills + Motion and its archive turns 2-years-old, the new homepage needed to showcase exactly what makes Tandem stand out as the best photography provider. The solution: Put images from the Tandem collection front and center. Worked on the design for the new Tandem Stock homepage as well as the marketing page for Tandem Vault. Work done at LEMUR Heavy Industries."
     url: "http://tandemstock.com"
     images:
-      - image_url: waters.jpg
+      - image_url: tandem_01.png
+      - image_url: tandem_02.png
    
   # --- YEAR 2011 --------------------------------------------------
 
