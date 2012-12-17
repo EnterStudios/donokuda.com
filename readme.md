@@ -8,7 +8,3 @@ DONOKUDA.COM
 This is the source for my portfolio site,
 [donokuda.com](http://www.donokuda.com "donokuda.com").
 
-Why open source it?
--------------------
-
-My goal is hoping that others will learn from my site's source.
