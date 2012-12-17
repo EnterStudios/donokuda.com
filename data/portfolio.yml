@@ -173,7 +173,15 @@ projects:
     description: "A publication of curated articles that typographically expresses examples of failure and how we attempt to hide it. Produced at Otis College of Art & Design"
     url:
     images:
-      - image_url: waters.jpg
+      - image_url: fail_01.jpg
+      - image_url: fail_02.jpg
+      - image_url: fail_03.jpg
+      - image_url: fail_04.jpg
+      - image_url: fail_05.jpg
+      - image_url: fail_06.jpg
+      - image_url: fail_07.jpg
+      - image_url: fail_08.jpg
+      - image_url: fail_09.jpg
 
   - name: "That's Not Funny Film Festival Posters"
     main_color: '#fab325'
