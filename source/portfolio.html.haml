@@ -3,7 +3,7 @@ title: Portfolio
 ---
 
 - content_for :headerInfoTag do
-  Don Okuda
+  = link_to "Don Okuda", "/", title: "Back to Main", class: "nameLink"
   %span.lighter.j_portfolioMiniHeaderTitle Selected Work
   %ul#portfolioNav
     - data.portfolio.projects.each do |project|
