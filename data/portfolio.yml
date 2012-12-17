@@ -59,6 +59,7 @@ projects:
     url:
     images:
       - image_url: waters.jpg
+      - image_url: waters_02.jpg
 
   # --- YEAR 2010 --------------------------------------------------
    
@@ -98,7 +99,7 @@ projects:
     client: Personal
     role: Design, Animation
     description: A title sequence concept for the television show The Pacific. I played around with the idea of juxtaposing peaceful Hokusai painting with war photos. It's my interpretation of the disruption that war brings to both sides fighting. Produced at Otis College of Art & Design
-    url:
+    url: "http://vimeo.com/10993873"
     images:
       - image_url: thepacific_01.jpg
       - image_url: thepacific_02.jpg
@@ -152,7 +153,7 @@ projects:
     client: Personal
     role: Design, Animation
     description: "A short piece promoting the many kind of drink recipes you can make with Absolut Vodka. Based on a 'drink finder' feature Absolut had on their site at the time. Produced at Otis College of Art & Design"
-    url:
+    url: "https://vimeo.com/10974896"
     images:
       - image_url: absolut_01.jpg
       - image_url: absolut_02.jpg
@@ -206,7 +207,7 @@ projects:
     description:
     url:
     images:
-      - image_url: waters.jpg
+      - image_url: balloonman.jpg
 
   # --- YEAR 2007 --------------------------------------------------
   # NOTHING!
