@@ -20,7 +20,7 @@ projects:
     year: 2012
     client: LEMUR Heavy Industries
     role: Design, Front-End Development
-    description: "HTML/CSS3 Front-End Development done for Lowe's social marketing site: Plant A Tweet. The purpose of the site was to have your plant retweeted and repinned as many times as possible to get a $10 Gift Card (\"while supplies last, no purchase neccessary\"). CSS3 Media Queries were used for mobile responsive design (both for iPhone and iPad resolutions). Various CSS3 gradients were used as well for background elements as it would change based on the time of day. Work done at LEMUR Heavy Industries."
+    description: "Coveralls is a utility for developers keeping track of their code coverage across various projects. Did design and illustrations for the homepage and various internal elements. Work done at LEMUR Heavy Industries."
     url: "http://coveralls.io"
     images:
       - image_url: waters.jpg
@@ -42,7 +42,7 @@ projects:
     year: 2012
     client: "Tandem Stills + Motion"
     role: Design
-    description: "As Tandem Stills + Motion grows 2-years-old as well as its image archive, the new homepage needed to showcase exactly what makes Tandem stand out as the best photography provider. The solution: Put images from the Tandem collection front and center. Tandem also provides a white label service called 'vault' for larger companies looking to archive their own images. More info can be found at tandemvault.com. I worked on the design for the new Tandem Stock homepage as well as the marketing page for Tandem Vault. Work done at LEMUR Heavy Industries."
+    description: "As Tandem Stills + Motion and its archive turns 2-years-old, the new homepage needed to showcase exactly what makes Tandem stand out as the best photography provider. The solution: Put images from the Tandem collection front and center. Worked on the design for the new Tandem Stock homepage as well as the marketing page for Tandem Vault. Work done at LEMUR Heavy Industries."
     url: "http://tandemstock.com"
     images:
       - image_url: waters.jpg
@@ -55,7 +55,7 @@ projects:
     year: 2011
     client: Audyssey
     role: Design
-    description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    description: "An illustration done for an invite-only event hosted by Audyssey called TheNeighborhood.tv. The illustration depicts my interpretation of Waters' music: Lo-fi sounds with motifs of journies and tribulations. It was also made into buttons and little promo cards! Sweet!"
     url:
     images:
       - image_url: waters.jpg
@@ -68,7 +68,7 @@ projects:
     year: 2010
     client: Personal
     role: Design
-    description: A show poster for Modeselektor's show at The El Rey Theatre.
+    description: "A show poster for Modeselektor's show at The El Rey Theatre. Depicts the monkey trademark of Modeselektor and the playfulness of their music along with their wide range of influences (displayed here as different cultural references.)"
     url:
     images:
       - image_url: waters.jpg
@@ -79,7 +79,7 @@ projects:
     year: 2010
     client: Personal
     role: Design
-    description: A bunch of hipster stuff.
+    description: "A bunch of hipster stuff. Produced at Otis College of Art & Design"
     url:
     images:
       - image_url: waters.jpg
@@ -92,18 +92,18 @@ projects:
     year: 2009
     client: Personal
     role: Design, Animation
-    description: A bunch of hipster stuff.
+    description: A title sequence concept for the television show The Pacific. I played around with the idea of juxtaposing peaceful Hokusai painting with war photos. It's my interpretation of the disruption that war brings to both sides fighting. Produced at Otis College of Art & Design
     url:
     images:
       - image_url: waters.jpg
 
   - name: 'National Museum of Nuclear Science Rebrand'
     main_color: '#ffcb45'
-    type: Print
+    type: Print, Web
     year: 2009
     client: Personal
     role: Design
-    description: A bunch of hipster stuff.
+    description: A conceptual rebrand for the National Museum of Nuclear Science. Produced at Otis College of Art & Design
     url:
     images:
       - image_url: waters.jpg
@@ -114,7 +114,8 @@ projects:
     year: 2009
     client: Personal
     role: Design
-    description: A bunch of hipster stuff.
+    description: A bunch of hipster stuff. Produced at Otis College of Art & Design
+
     url:
     images:
       - image_url: waters.jpg
@@ -127,7 +128,7 @@ projects:
     year: 2008
     client: Personal
     role: Design, Animation
-    description: "A publication of curated articles that typographically expresses examples of failure and how we attempt to hide it."
+    description: "A short piece promoting the many kind of drink recipes you can make with Absolut Vodka. Based on a 'drink finder' feature Absolut had on their site at the time. Produced at Otis College of Art & Design"
     url:
     images:
       - image_url: waters.jpg
@@ -138,7 +139,7 @@ projects:
     year: 2008
     client: Personal
     role: Design
-    description: "A publication of curated articles that typographically expresses examples of failure and how we attempt to hide it."
+    description: "A publication of curated articles that typographically expresses examples of failure and how we attempt to hide it. Produced at Otis College of Art & Design"
     url:
     images:
       - image_url: waters.jpg
@@ -149,7 +150,7 @@ projects:
     year: 2008
     client: Personal
     role: Design
-    description: "A publication of curated articles that typographically expresses examples of failure and how we attempt to hide it."
+    description: "Designs promoting a curated film festival that featured movies with comedy actors performing dramatic roles. Movies included Eternal Sunshine of the Spotless Mind (Jim Carrey), The Butterfly Effect (Ashton Kutcher), and One Hour Photo (Robin Williams). Produced at Otis College of Art & Design"
     url:
     images:
       - image_url: waters.jpg
@@ -160,7 +161,7 @@ projects:
     year: 2008
     client: Personal
     role: Design
-    description: "A publication of curated articles that typographically expresses examples of failure and how we attempt to hide it."
+    description:
     url:
     images:
       - image_url: waters.jpg
