@@ -31,7 +31,7 @@ title: Portfolio
           %p= project.description
 
           %p
-            = link_to "Visit Site", project.url if project.url.present?
+            = link_to "View Project", project.url if project.url.present?
             = link_to "Back to Main", "/"
       %ul.examples
         - project.images.each do |image|

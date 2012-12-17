@@ -132,7 +132,16 @@ projects:
 
     url:
     images:
-      - image_url: waters.jpg
+      - image_url: stfu_01.jpg
+      - image_url: stfu_02.jpg
+      - image_url: stfu_03.jpg
+      - image_url: stfu_04.jpg
+      - image_url: stfu_05.jpg
+      - image_url: stfu_06.jpg
+      - image_url: stfu_07.jpg
+      - image_url: stfu_08.jpg
+      - image_url: stfu_09.jpg
+      - image_url: stfu_10.jpg
 
   # --- YEAR 2008 --------------------------------------------------
 
