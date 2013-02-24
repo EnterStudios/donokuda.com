@@ -7,8 +7,8 @@ title: Portfolio
   %span.lighter.j_portfolioMiniHeaderTitle Selected Work
   %ul#portfolioNav
     - data.portfolio.projects.each do |project|
-      %li.pagination{ data: { name: project.name } }= link_to "", "#"
-      -# %li.pagination.active= link_to "", "#"
+      %li.pagination{ data: { name: project.name } }
+        = link_to "", "##{ project.hashroute }"
 
 #portfolio
   - data.portfolio.projects.each do |project|
