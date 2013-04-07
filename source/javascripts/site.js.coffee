@@ -6,15 +6,6 @@ window.log = (args...) =>
 
 $(document).ready ->
 
-  site =
-
-    setup: ->
-      workPreviewNodes = $('#selectedWork ul').children()
-      if workPreviewNodes.length > 12
-        for n in [12..workPreviewNodes.length]
-          $('#selectedWork ul').children().eq(n).remove()
-
-
   portfolio =
 
     setup: ->
@@ -65,5 +56,4 @@ $(document).ready ->
             $('#portfolioNav').children('.pagination').removeClass('active')
             $('#portfolioNav').children('.pagination').eq([scrolledProject.length] - 1).addClass('active')
 
-  site.setup()
   portfolio.setup()

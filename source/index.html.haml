@@ -22,17 +22,18 @@ description:
 #selectedWork.whiteBg
   %h3.headerTag FEATURED WORK
   %ul
-    - data.portfolio.projects.each do |project|
-      %li
-        = link_to "/portfolio##{ project.hashroute }", class: 'work-preview' do
-          .description
-            %h2{ style: "color: #{ project.main_color }" }= project.name
-            %p
-              %strong
-                = project.year
-                %br
-                = project.type.upcase
-          = image_tag "portfolio/#{ project.preview_url }"
+    - data.portfolio.projects.each_with_index do |project, index|
+      - unless index >= 12
+        %li
+          = link_to "/portfolio##{ project.hashroute }", class: 'work-preview' do
+            .description
+              %h2{ style: "color: #{ project.main_color }" }= project.name
+              %p
+                %strong
+                  = project.year
+                  %br
+                  = project.type.upcase
+            = image_tag "portfolio/#{ project.preview_url }"
 
     -# Reference
       - 12.times do
