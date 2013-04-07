@@ -6,20 +6,20 @@ window.log = (args...) =>
 
 $(document).ready ->
 
-  projectWindowLocations = new Array
-
   site =
 
     setup: ->
       workPreviewNodes = $('#selectedWork ul').children()
       if workPreviewNodes.length > 12
         for n in [12..workPreviewNodes.length]
-          console.log $('#selectedWork ul').children().eq(n).remove()
+          $('#selectedWork ul').children().eq(n).remove()
 
 
   portfolio =
 
     setup: ->
+
+      projectWindowLocations = new Array
 
       # check if hash exists in URL
       if $.isEmptyObject $("#portfolioNav .pagination").find("[href='#{ window.location.hash }']")
@@ -31,11 +31,9 @@ $(document).ready ->
       # Set up hover event on pagination to preview name of project
       #
       $('#portfolioNav').children('.pagination').mouseenter ->
-        console.log "Mouse Enter"
         $('.j_portfolioMiniHeaderTitle').text($(this).data('name'))
 
       $('#portfolioNav').children('.pagination').mouseleave ->
-        console.log "Mouse Leave"
         $('.j_portfolioMiniHeaderTitle').text 'Selected Work'
       
       # Set up ScrollTo events to project pagination in miniheader
