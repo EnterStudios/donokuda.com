@@ -8,7 +8,7 @@ title: Portfolio
   %ul#portfolioNav
     - data.portfolio.projects.each do |project|
       %li.pagination{ data: { name: project.name } }
-        = link_to "", "##{ project.hashroute }"
+        = link_to "", "##{ project.hashroute }", class: "j_projectPaginationLink"
 
 #portfolio
   - data.portfolio.projects.each do |project|

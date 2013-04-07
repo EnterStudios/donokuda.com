@@ -21,9 +21,12 @@ $(document).ready ->
 
     setup: ->
 
-      # Put 'active' class on first pagination
-      #
-      $('#portfolioNav').children('.pagination').first().addClass('active')
+      # check if hash exists in URL
+      if $.isEmptyObject $("#portfolioNav .pagination").find("[href='#{ window.location.hash }']")
+        # Put 'active' class on first pagination
+        $('#portfolioNav').children('.pagination').first().addClass('active')
+      else
+        $("#portfolioNav .j_projectPaginationLink[href='#{ window.location.hash }']").closest(".pagination").addClass "active"
 
       # Set up hover event on pagination to preview name of project
       #
