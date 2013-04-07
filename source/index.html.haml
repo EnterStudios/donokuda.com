@@ -24,7 +24,7 @@ description:
   %ul
     - data.portfolio.projects.each do |project|
       %li
-        = link_to "/portfolio", class: 'work-preview' do
+        = link_to "/portfolio##{ project.hashroute }", class: 'work-preview' do
           .description
             %h2{ style: "color: #{ project.main_color }" }= project.name
             %p
