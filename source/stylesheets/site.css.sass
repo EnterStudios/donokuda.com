@@ -144,28 +144,36 @@ strong
       float: left
       width: 33.33%
       a.work-preview
-        background: rgba(#eeeeee, 0.7)
+        background-color: #000
         display: block
         overflow: hidden
         position: relative
-        &:hover
+        &:hover 
           opacity: 1
-          img
-            opacity: 0.1
-        img
+          .description
+            opacity: 1
+          .previewImage
+            opacity: .50
+        .previewImage
           height: auto
           position: relative
+          width: 100%
+          -webkit-transition: opacity 0.25s
+          -moz-transition: opacity 0.25s
+          -o-transition: opacity 0.25s
+          transition: opacity 0.25s
+        .description
+          background: #eeeeee
+          position: absolute
+          opacity: 0
+          text-align: center
+          top: 33%
           width: 100%
           z-index: 1
           -webkit-transition: opacity 0.25s
           -moz-transition: opacity 0.25s
           -o-transition: opacity 0.25s
           transition: opacity 0.25s
-        .description
-          position: absolute
-          text-align: center
-          top: 33%
-          width: 100%
           h2
             font-size: 24px
             line-height: 24px
