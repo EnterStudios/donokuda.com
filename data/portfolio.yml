@@ -37,7 +37,7 @@ projects:
     year: 2012
     client: Lowe's
     role: Front-End Development
-    description: "HTML/CSS3 Front-End Development done for Lowe's social marketing site: Plant A Tweet. The purpose of the site was to have your plant retweeted and repinned as many times as possible to get a $10 Gift Card (\"while supplies last, no purchase neccessary\"). CSS3 Media Queries were used for mobile responsive design (both for iPhone and iPad resolutions).  Work done at LEMUR Heavy Industries in collaboration with UseAll5 for designs."
+    description: "HTML/CSS3 Front-End Development done for Lowe's social marketing site: Plant A Tweet. The purpose of the site was to have your plant retweeted and repinned as many times as possible to get a $10 Gift Card (\"while supplies last, no purchase neccessary\"). CSS3 Media Queries were used for mobile responsive design (both for iPhone and iPad resolutions).  Development work done at LEMUR Heavy Industries. Web designs provided by UseAll5."
     hashroute: "lowes"
     url: "http://plantatweet.com"
     preview_url: pat_preview.jpg
