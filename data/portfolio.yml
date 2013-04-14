@@ -90,24 +90,6 @@ projects:
     images:
       - image_url: modeselektor.jpg
 
-  - name: PRLDR
-    main_color: '#280000'
-    type: Print
-    year: 2010
-    client: Personal
-    role: Design
-    description: "A bunch of hipster stuff. Produced at Otis College of Art & Design"
-    hashroute: "prldr"
-    url:
-    preview_url: preloader_preview.jpg
-    images:
-      - image_url: preloader_01.jpg
-      - image_url: preloader_02.jpg
-      - image_url: preloader_03.jpg
-      - image_url: preloader_04.jpg
-      - image_url: preloader_05.jpg
-      - image_url: preloader_06.jpg
-
   # --- YEAR 2009 --------------------------------------------------
 
   - name: 'The Pacific'
