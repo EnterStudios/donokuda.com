@@ -32,22 +32,8 @@ description:
                 %strong
                   = project.year
                   %br
-                  = project.type.upcase
+                  = project.role.upcase
             = image_tag "portfolio/#{ project.preview_url }", class: 'previewImage'
-
-    -# Reference
-      - 12.times do
-        %li
-          = link_to "", class: 'work-preview' do
-            .description
-              %h2 
-                Action Tobacco Prevention
-              %p
-                %strong
-                  2011
-                  %br
-                  PRINT
-            = image_tag 'standin-workpreview.jpg'
 
 -# TODO: Career Timeline interactive funness
   #careerTimeline.whiteBg
