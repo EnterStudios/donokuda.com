@@ -26,28 +26,10 @@
     = stylesheet_link_tag "site"
   %body
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
-    %header#miniHeader
-      - if content_for? :headerInfoTag
+    - if content_for? :headerInfoTag
+      %header#miniHeader
         = yield_content :headerInfoTag
-      - else
-        Don Okuda | Graphic Designer &amp; Front-End Developer
-        %br
-        %span.lighter
-          -# SUPER SECRET EMAIL GENERATOR
-          :javascript
-            //<![CDATA[
-            <!--
-            var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-            "=104){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
-            "o.substr(0,ol);}f(\")35,\\\".$(;3.n!1adi'dnghcCceu520\\\\220\\\\R520\\\\520" +
-            "\\\\530\\\\FU*W(N720\\\\530\\\\400\\\\600\\\\230\\\\MN7700\\\\600\\\\310\\\\"+
-            "In\\\\410\\\\500\\\\610\\\\500\\\\!100\\\\;+63u46<m9!8:3<r320\\\\s+)9\\\"\\" +
-            "\\i){dm*/'5)MI320\\\\HU_TMTYQ\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCr" +
-            "ahCmorf.gnirtS=+o;721=%y{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(" +
-            "f noitcnuf\")"                                                               ;
-            while(x=eval(x));
-            //-->
-            //]]>
+
     %div{:role => "main", :class => "main"}= yield
     %footer#mainFooter.background.asphalt
       .wrapper
