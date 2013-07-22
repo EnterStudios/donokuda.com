@@ -3,13 +3,18 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Don Okuda -- Designer, Developer -- @donokuda
 
 # THANKS
 
-    <name>
+    Sarah Soh
+    Eric Hu
+    Wil Gieseler - wilgieseler.com
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr
+    Ruby, Coffeescript
+    Haml, Sass, Middleman, Yaml
+
