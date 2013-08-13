@@ -18,9 +18,9 @@ projects:
     main_color: '#e56750'
     type: Web
     year: 2013
-    client: Los Angeles County Department of Public Heath
+    client: Los Angeles County Department of Public Health
     role: Design, Front-End Development
-    description: "Action Tobacco Prevention is a resource site for the Los Angeles County Department of Public Heath. The site provides information on the process of supporting policy change in the context of smoke-free environments and tobacco prevention. I was responsible for the overall design and illustration. I also shared front-end development responsibilities."
+    description: "Action Tobacco Prevention is a resource site for the Los Angeles County Department of Public Health. The site provides information on the process of supporting policy change in the context of smoke-free environments and tobacco prevention. I was responsible for the overall design and illustration. I also shared front-end development responsibilities."
     hashroute: "atp"
     url: "http://actiontobaccoprevention.org"
     preview_url: atp_preview.jpg
