@@ -26,7 +26,7 @@ $(document).ready ->
 
       $('#portfolioNav').children('.pagination').mouseleave ->
         $('.j_portfolioMiniHeaderTitle').text 'Selected Work'
-      
+
       # Set up ScrollTo events to project pagination in miniheader
       #
       $('#portfolioNav').children('.pagination').click ->
