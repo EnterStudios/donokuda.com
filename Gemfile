@@ -1,9 +1,10 @@
 source "https://rubygems.org"
 
-gem "middleman", "~>3.0.11"
+gem "middleman", "~>3.2.2"
 gem "middleman-favicon-maker"
 gem "middleman-livereload"
-gem "susy", "1.0"
+gem 'middleman-s3_sync'
+gem "susy"
 gem "redcarpet"
 
 # gem 'coffee-filter' # Coffeescript filter for HAML

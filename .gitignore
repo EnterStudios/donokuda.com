@@ -3,5 +3,6 @@
 sass-cache/
 .sass-cache/
 .bundle/
+.s3_sync
 
 build/

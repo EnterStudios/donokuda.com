@@ -7,7 +7,12 @@ set :markdown_engine, :redcarpet
 #Livereload
 activate :livereload
 
-### 
+activate :s3_sync do |s3|
+  s3.bucket = 'donokuda.com'
+  s3.region = 'us-west-1'
+end
+
+###
 # Compass
 ###
 
@@ -25,13 +30,13 @@ activate :livereload
 ###
 
 # Per-page layout changes:
-# 
+#
 # With no layout
 # page "/path/to/file.html", :layout => false
-# 
+#
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
-# 
+#
 # A path which all have the same layout
 # with_layout :admin do
 #   page "/admin/*"
@@ -66,24 +71,24 @@ set :images_dir, 'images'
 configure :build do
   # For example, change the Compass output style for deployment
   activate :minify_css
-  
+
   # Minify Javascript on build
   activate :minify_javascript
-  
+
   # Create favicon/touch icon set from source/favicon_base.png
   activate :favicon_maker
-  
+
   # Enable cache buster
   # activate :cache_buster
-  
+
   # Use relative URLs
   # activate :relative_assets
-  
+
   # Compress PNGs after build
   # First: gem install middleman-smusher
   # require "middleman-smusher"
   # activate :smusher
-  
+
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
