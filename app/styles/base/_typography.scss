@@ -9,47 +9,30 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $header-font-family;
+  font-size: 1em;
   line-height: $header-line-height;
-  margin: 0;
+  margin: 0 0 ($base-line-height * .666666667);
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 
 h1 {
   font-family: $serif;
   font-size: $base-font-size * 2.25; // 16 * 2.25 = 36px
-}
-
-h2 {
-  font-size: $base-font-size * 2; // 16 * 2 = 32px
-}
-
-h3 {
-  font-size: $base-font-size * 1.75; // 16 * 1.75 = 28px
-}
-
-h4 {
-  font-size: $base-font-size * 1.5; // 16 * 1.5 = 24px
-}
-
-h5 {
-  font-size: $base-font-size * 1.25; // 16 * 1.25 = 20px
-}
-
-h6 {
-  font-size: $base-font-size;
+  font-weight: normal;
+  margin-bottom: 1rem;
 }
 
 p {
-  margin: 0 0 ($base-line-height * .5);
+  margin: 0 0 ($base-line-height * .666666667);
 }
 
 a {
   @include transition(color 0.1s linear);
-  color: $base-link-color;
-  text-decoration: none;
+  color: $base-font-color;
+  text-decoration: underline;
 
   &:hover {
-    color: $hover-link-color;
+    opacity: .75;
   }
 
   &:active, &:focus {
@@ -85,4 +68,16 @@ cite {
   &:before {
     content: '\2014 \00A0';
   }
+}
+
+dl {
+  font-family: $sans-serif;
+  font-size: .75em;
+  letter-spacing: .1em;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+dd {
+  color: #999;
 }

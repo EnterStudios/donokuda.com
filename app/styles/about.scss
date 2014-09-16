@@ -1,0 +1,45 @@
+.bio {
+  aside {
+    @include clearfix;
+  }
+
+  @include media($large-screen-up) {
+    @include span-columns(6);
+    @include omega;
+  }
+}
+
+.bio-image {
+  text-align: center;
+
+  @include media($large-screen-up) {
+    @include span-columns(6);
+
+    img {
+      margin-bottom: 2em;
+      width: 150px;
+    }
+  }
+}
+
+.bio-list {
+  @include media($large-screen-up) {
+    @include span-columns(3 of 6);
+  }
+}
+
+.link-dribbble {
+  color: #EF4FB4;
+}
+
+.link-github {
+  color: #707070;
+}
+
+.link-soundcloud {
+  color: #F5A623;
+}
+
+.link-twitter {
+  color: #4AB0E2;
+}

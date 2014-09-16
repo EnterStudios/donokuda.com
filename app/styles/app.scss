@@ -4,3 +4,9 @@
 @import 'base/base';
 
 @import 'shared/header';
+@import 'about';
+
+main {
+  @include outer-container;
+  margin: 4em auto;
+}

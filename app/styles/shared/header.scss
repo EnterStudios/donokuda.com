@@ -1,6 +1,5 @@
 .portfolio-header {
   border-bottom: $base-border;
-  margin-bottom: 4em;
   padding: 2em 0;
 
   .header-content {
@@ -10,12 +9,13 @@
   h1 {
     font-family: $sans-serif;
     font-size: 1em;
+    font-weight: bold;
 
     @include media($large-screen-up) {
       @include span-columns(8);
       @include inline-block;
       float: none;
-      margin-right: 0;
+      margin: 0;
       vertical-align: middle;
     }
   }
@@ -39,6 +39,11 @@
     font-family: $sans-serif;
     font-size: .8125em;
     text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
 
     &.active {
       color: $base-font-color;
