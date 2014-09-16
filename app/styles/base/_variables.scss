@@ -1,8 +1,8 @@
 // Typography
-$sans-serif: $helvetica;
-$serif: $georgia;
-$base-font-family: $sans-serif;
-$header-font-family: $base-font-family;
+$sans-serif: 'Proxima Nova', $helvetica;
+$serif: 'Calluna', $georgia;
+$base-font-family: $serif;
+$header-font-family: $sans-serif;
 
 // Sizes
 $base-font-size: 1em;
@@ -21,7 +21,7 @@ $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
 // Background Color
-$base-background-color: white;
+$base-background-color: #f5f3ee;
 
 // Font Colors
 $base-font-color: $dark-gray;
@@ -35,6 +35,7 @@ $hover-button-color: $hover-link-color;
 
 // Border color
 $base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
 
 // Flash Colors
 $alert-color: $light-yellow;

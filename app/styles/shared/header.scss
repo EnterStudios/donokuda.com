@@ -1,0 +1,64 @@
+.portfolio-header {
+  border-bottom: $base-border;
+  margin-bottom: 4em;
+  padding: 2em 0;
+
+  .header-content {
+    @include outer-container;
+  }
+
+  h1 {
+    font-family: $sans-serif;
+    font-size: 1em;
+
+    @include media($large-screen-up) {
+      @include span-columns(8);
+      @include inline-block;
+      float: none;
+      margin-right: 0;
+      vertical-align: middle;
+    }
+  }
+
+  .name {
+    text-transform: uppercase;
+  }
+
+  .role {
+    color: #9C9B99;
+    font-size: .8125em;
+    font-weight: normal;
+    margin: 0;
+  }
+
+}
+
+.header-navigation {
+  a {
+    color: #444;
+    font-family: $sans-serif;
+    font-size: .8125em;
+    text-transform: uppercase;
+
+    &.active {
+      color: $base-font-color;
+      font-weight: bold;
+    }
+  }
+
+  @include media($large-screen-up) {
+    @include span-columns(4);
+    @include inline-block;
+    float: none;
+    text-align: right;
+    vertical-align: middle;
+
+    li {
+      display: inline;
+
+      & ~ li {
+        margin-left: 2em;
+      }
+    }
+  }
+}
