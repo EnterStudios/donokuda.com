@@ -3,10 +3,15 @@
 @import 'vendor/neat/app/assets/stylesheets/neat';
 @import 'base/base';
 
+@import 'shared/footer';
 @import 'shared/header';
 @import 'about';
 
 main {
   @include outer-container;
   margin: 4em auto;
+}
+
+.content-wrapper {
+  @include outer-container;
 }

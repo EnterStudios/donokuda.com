@@ -2,10 +2,6 @@
   border-bottom: $base-border;
   padding: 2em 0;
 
-  .header-content {
-    @include outer-container;
-  }
-
   h1 {
     font-family: $sans-serif;
     font-size: 1em;
