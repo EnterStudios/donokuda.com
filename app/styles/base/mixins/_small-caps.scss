@@ -1,0 +1,7 @@
+@mixin small-caps {
+  font-family: $small-caps;
+  font-size: .9em;
+  letter-spacing: .05em;
+  line-height: 1.25em;
+  text-transform: lowercase;
+}

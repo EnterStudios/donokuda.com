@@ -8,6 +8,7 @@
 
 // Mixins
 @import 'mixins/flash';
+@import 'mixins/small-caps';
 
 // Extends
 @import 'extends/button';
@@ -28,11 +29,5 @@ figure {
 
 figcaption {
   border-top: $base-border;
-  color: rgba(#444, .4);
-  font-family: $sans-serif;
-  font-size: .75em;
-  letter-spacing: .133em;
   padding-top: .25em;
-  text-align: left;
-  text-transform: uppercase;
 }
