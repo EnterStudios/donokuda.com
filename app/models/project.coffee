@@ -4,6 +4,7 @@ Project = DS.Model.extend
   active: DS.attr('boolean')
   client: DS.attr('string')
   color: DS.attr('string')
+  hasCaseStudy: DS.attr('boolean')
   logoUrl: DS.attr('string')
   name: DS.attr('string')
   teaser: DS.attr('string')
@@ -19,6 +20,7 @@ coveralls =
   active: true
   client: "LEMUR Heavy Industries"
   color: "#3e5768"
+  hasCaseStudy: true
   logoUrl: "/project-logos/coveralls.png"
   name: "Coveralls"
   teaser:

@@ -13,6 +13,7 @@
     "ember-qunit-notifications": "^0.0.3",
     "ember-cli-test-loader": "rjackson/ember-cli-test-loader#0.0.2",
     "bourbon": "~3.2.1",
-    "neat": "~1.5.1"
+    "neat": "~1.5.1",
+    "marked": "~0.3.2"
   }
 }

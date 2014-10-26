@@ -57,8 +57,89 @@
 .project-links {
   @include clearfix;
 }
+
 .project-link {
   @include media($large-screen-up) {
     @include span-columns(2 of 6);
+  }
+}
+
+.project-page {
+  @include media($large-screen-up) {
+    @include span-columns(8);
+    @include shift(2);
+
+    figure {
+      text-align: center;
+
+      figcaption {
+        text-align: left;
+      }
+    }
+
+    .project-text {
+      h1, h2, h3, h4, h5, h6, p {
+        @include span-columns(6 of 8);
+        @include shift(1);
+        float: none;
+      }
+    }
+  }
+}
+
+.project-name-with-logo,
+.project-info {
+  @include media($large-screen-up) {
+    @include span-columns(7 of 8);
+    @include shift(1);
+  }
+}
+
+.project-info {
+  margin-bottom: $base-margin-bottom;
+}
+
+.project-logo {
+  @include media($large-screen-up) {
+    display: block;
+    margin: 0 auto 2em;
+    width: 50%;
+  }
+}
+
+.info-year {
+  @include media($large-screen-up) {
+    @include span-columns(2 of 8);
+  }
+}
+
+.info-client,
+.info-roles {
+  @include media($large-screen-up) {
+    @include span-columns(3 of 8);
+  }
+}
+
+.project-page-navigation {
+  @include media($large-screen-up) {
+    @include fill-parent;
+    margin-top: -5em;
+    max-width: 68em;
+    position: fixed;
+    top: 50%;
+  }
+
+  dt {
+    font-weight: normal;
+    opacity: .5;
+  }
+}
+
+.project-page-navigation-next {
+  @include media($large-screen-up) {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: right;
   }
 }

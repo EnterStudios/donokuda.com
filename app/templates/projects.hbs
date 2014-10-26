@@ -23,14 +23,16 @@
       <p>{{project.teaser}} </p>
       <section class="project-links">
 
-        <!-- // Links to project details
+        {{#if project.hasCaseStudy}}
           <dl class="project-link">
             <dt>Learn more</dt>
             <dd>
-              <a href="#">View Details</a>
+              {{#link-to 'project' project.id}}
+                View Details
+              {{/link-to}}
             </dd>
           </dl>
-        -->
+        {{/if}}
 
         {{#if project.hasUrl}}
           <dl class="project-link">
