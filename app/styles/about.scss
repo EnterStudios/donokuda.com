@@ -5,7 +5,7 @@
 
   @include media($large-screen-up) {
     @include span-columns(6);
-    @include omega;
+    margin-right: 0;
   }
 }
 
