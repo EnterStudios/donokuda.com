@@ -40,6 +40,7 @@ posters =
   logoUrl: "/project-logos/waters.png"
   name: "Poster Illustrations"
   teaser: "Poster design and illustrations done for clients and myself."
+  hasCaseStudy: true
   year: 2011
 
 atp =
