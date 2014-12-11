@@ -31,9 +31,9 @@
     </dl>
     <dl class="info-roles">
       <dt>Roles</dt>
-      <dd>UI Design</dd>
-      <dd>Ember.js Development</dd>
-      <dd>Ruby on Rails Development</dd>
+      {{#each role in rolesList}}
+        <dd>{{role}}</dd>
+      {{/each}}
     </dl>
   </aside>
 

@@ -7,6 +7,7 @@ Project = DS.Model.extend
   hasCaseStudy: DS.attr('boolean')
   logoUrl: DS.attr('string')
   name: DS.attr('string')
+  roles: DS.attr('string')
   teaser: DS.attr('string')
   url: DS.attr('string')
   year: DS.attr('date')
@@ -23,6 +24,7 @@ coveralls =
   hasCaseStudy: true
   logoUrl: "/project-logos/coveralls.png"
   name: "Coveralls"
+  roles: "Designer, Rails Development, Front-end Development"
   teaser:
     "Coveralls is a utility for developers keeping track of their code coverage
     across various projects. Did design and illustrations for the homepage and

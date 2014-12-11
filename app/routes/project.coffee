@@ -8,7 +8,7 @@ ProjectRoute = Ember.Route.extend ResetScrollMixin,
   setupController: (controller, model) ->
     @_super(controller, model)
 
-    Ember.$.get "/case-studies/#{controller.get('name').dasherize()}.md", (content) ->
+    Ember.$.get "/case-studies/#{model.get('name').dasherize()}.md", (content) ->
       renderedContent = marked(content).htmlSafe()
       controller.set('caseStudyDetails', renderedContent)
 
