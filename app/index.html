@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/vendor.css">
     <link rel="stylesheet" href="assets/portfolio.css">
 
+    {{content-for 'head-footer'}}
+
     <script src="//use.typekit.net/xhs6ste.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
   </head>
@@ -20,5 +22,7 @@
 
     <script src="assets/vendor.js"></script>
     <script src="assets/portfolio.js"></script>
+
+    {{content-for 'body-footer'}}
   </body>
 </html>

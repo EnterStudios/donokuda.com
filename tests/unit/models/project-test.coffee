@@ -1,19 +1,19 @@
 `import { test, moduleForModel } from 'ember-qunit'`
 
-moduleForModel 'project', 'Project', {
+moduleForModel 'project', {
   # Specify the other units that are required for this test.
-  needs: []
+
 }
 
-test 'it exists', ->
+test 'it exists', (assert) ->
   model = @subject()
   # store = @store()
-  ok model
+  assert.ok !!model
 
-test '#hasUrl with a url returns true', ->
-  project = @subject({url: "//test.url"})
-  equal project.get('hasUrl'), true
-
-test '#hasUrl without a url returns false', ->
-  project = @subject({url: undefined})
-  equal project.get('hasUrl'), false
+#  test '#hasUrl with a url returns true', (assert)->
+#    project = @subject({url: "//test.url"})
+#    equal project.get('hasUrl'), true
+#
+#  test '#hasUrl without a url returns false', (assert)->
+#    project = @subject({url: undefined})
+#    assert.ok project.get('hasUrl'), false
