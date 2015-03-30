@@ -1,20 +1,22 @@
 <article class="project-page">
   <header>
     <img {{bind-attr src="logoUrl"}} class="project-logo">
-    <h1 class="project-name-with-logo">{{name}}</h1>
+    <h1 class="project-name-with-logo" style="color: {{unbound color}};">
+      {{name}}
+    </h1>
   </header>
 
   <aside class="project-info">
     <dl class="info-year">
-      <dt>Year</dt>
+      <dt style="color: {{unbound color}};">Year</dt>
       <dd>{{year}}</dd>
     </dl>
     <dl class="info-client">
-      <dt>Client</dt>
+      <dt style="color: {{unbound color}};">Client</dt>
       <dd>{{client}}</dd>
     </dl>
     <dl class="info-roles">
-      <dt>Roles</dt>
+      <dt style="color: {{unbound color}};">Roles</dt>
       {{#each role in rolesList}}
         <dd>{{role}}</dd>
       {{/each}}

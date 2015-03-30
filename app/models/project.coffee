@@ -36,7 +36,7 @@ posters =
   id: 2
   active: true
   client: "Various Clients"
-  color: "#3e5768"
+  color: "#3C6D48"
   logoUrl: "/project-logos/waters.png"
   name: "Poster Illustrations"
   roles: "Designer, Illustrator"
@@ -64,7 +64,7 @@ hound =
   id: 4
   active: true
   client: "thoughtbot, inc."
-  color: "#979797"
+  color: "#9756C9"
   logoUrl: "/project-logos/hound.png"
   name: "Hound"
   teaser:
