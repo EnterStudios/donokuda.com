@@ -79,10 +79,16 @@
     }
 
     .project-text {
-      h1, h2, h3, h4, h5, h6, p {
+      h1, h2, h3, h4, h5, h6, p,
+      ol, ul {
         @include span-columns(6 of 8);
         @include shift(1);
         float: none;
+      }
+
+      ol {
+        list-style-type: decimal;
+        list-style-position: inside;
       }
     }
   }

@@ -60,24 +60,40 @@ atp =
   url: "//actiontobaccoprevention.org"
   year: 2013
 
-cube =
+hound =
   id: 4
   active: true
-  client: "Personal Project"
+  client: "thoughtbot, inc."
   color: "#979797"
-  logoUrl: "/project-logos/cube.png"
-  name: "Cube"
+  logoUrl: "/project-logos/hound.png"
+  name: "Hound"
   teaser:
-    "Cube is a side project that is most likely to be shipped in the next
-    year or so here's a bunch of lorem ipsum: Cum sociis natoque penatibus et
-    magnis dis parturient montes, nascetur ridiculus mus. Praesent commodo cursus
-    magna, vel scelerisque nisl consectetur et. Vestibulum id ligula porta felis
-    euismod semper."
+    "Hound is a service that keeps your code style in check. I collaborated
+    with Galen Frechette on a marketing page that communicated the importance
+    of having a consistant coding style."
+  url: "//houndci.com"
   year: 2015
+
+explore =
+  id: 5
+  active: true
+  client: "Undisclosed"
+  color: "#019F91"
+  hasCaseStudy: true
+  logoUrl: "/project-logos/explore.png"
+  name: "Explore"
+  roles: "Designer, Front-end development"
+  teaser:
+    "Explore is an app used for defining and refining audience segments in a
+    mobile advertisement network. My responsibilities for this project involved
+    user testing, design, and front-end development (including Ember.js
+    development.)"
+  year: 2014
 
 Project.reopenClass
   FIXTURES: [
-    cube
+    hound
+    explore
     atp
     coveralls
     posters
