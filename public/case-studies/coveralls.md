@@ -1,36 +1,74 @@
-## Coveralls is something something
+## What is Coveralls?
 
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce
-dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur.
-Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus
-porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras
-mattis consectetur purus sit amet fermentum.
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere
-consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur.
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
-odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo
-quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum
-dolor sit amet, consectetur adipiscing elit.
+Coveralls: code coverage as a service. I worked on Coveralls back in
+2012 at Lemur Heavy Industries with [Wil Gieseler](//github.com/wilg) as the
+lead developer. As the only designer on Coveralls, I was responsible for the
+overall UX and UI design.
 
 <figure>
-  <img src="/coveralls-example.jpg" alt="Example image" />
-  <figcaption>This is an example of an image with caption</figcaption>
+  <img
+    src="/assets/images/case-studies/coveralls-homepage.jpg"
+    alt="Coveralls.io in 2012">
+  <figcaption>The coveralls.io homepage in 2012</figcaption>
 </figure>
 
-## More text!
+## Branding Coveralls
 
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce
-dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur.
-Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus
-porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras
-mattis consectetur purus sit amet fermentum.
+We viewed Coveralls as a "call to arms" with code coverage. When I was
+designing the homepage for Coveralls, I referenced many World War II
+propaganda posters for the look and feel. My goal for the marketing pages was
+to have a playful, yet serious, take on something that's possibly overlooked
+during the development process.
 
-Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere
-consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur.
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
-odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo
-quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum
-dolor sit amet, consectetur adipiscing elit.
+<figure>
+  <img
+    src="/assets/images/case-studies/coveralls-homepage-02.jpg"
+    alt="Coveralls.io in 2012">
+  <figcaption>The coveralls.io homepage in 2012</figcaption>
+</figure>
+
+## Organizing information on Coveralls
+
+There are a lot of information presented to the user in Coveralls: Build
+number, coverage percentage, repo name, branch name, committer, date, etc. On
+the updates page, I made an effort to emphasize commits that changed code
+coverage by having other commits be slightly transparent.
+
+Looking back, I would've removed other details that didn't provide as much
+valuable information such as build number.
+
+<figure>
+  <img
+    src="/assets/images/case-studies/coveralls-updates.jpg"
+    alt="Coveralls updates page in 2012">
+  <figcaption>The coveralls.io updates page in 2012</figcaption>
+</figure>
+
+On the repos page, the most valuable information for a user is the current
+state of code coverage of their repos. I made sure to emphasize the percentage
+as the top level hierarchy.
+
+<figure>
+  <img
+    src="/assets/images/case-studies/coveralls-repos.jpg"
+    alt="Coveralls Repos page in 2012">
+  <figcaption>The coveralls.io repos page in 2012</figcaption>
+</figure>
+
+## The future of Coveralls
+
+One of the last things I worked on for Coveralls was the landing page for the
+[Enterprise service](//enterprise.coveralls.io). For this homepage, I looked ahead and captured the
+look and feel of the [Space Age](//offworld.gizmodo.com/twenty-awesome-covers-from-the-us-space-program-461436874)
+and [Googie architecture](//en.wikipedia.org/wiki/Googie_architecture).
+
+<figure>
+  <img
+    src="/assets/images/case-studies/coveralls-enterprise.jpg"
+    alt="Coveralls Enterprise">
+  <figcaption>
+    The Coveralls Enterprise page as of 2015.
+    <br>
+    The original layout that I designed is still being used today.
+  </figcaption>
+</figure>

@@ -39,6 +39,7 @@ posters =
   color: "#3e5768"
   logoUrl: "/project-logos/waters.png"
   name: "Poster Illustrations"
+  roles: "Designer, Illustrator"
   teaser: "Poster design and illustrations done for clients and myself."
   hasCaseStudy: true
   year: 2011

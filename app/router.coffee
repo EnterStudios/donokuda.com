@@ -7,7 +7,7 @@ Router = Ember.Router.extend({
 
 Router.map ->
   @route('about', {path: '/'})
-  @resource('projects')
-  @resource 'project', path: 'projects/:project_id', ->
+  @resource 'projects'
+  @resource 'project', path: 'projects/:project_id', Ember.K
 
 `export default Router`
