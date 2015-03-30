@@ -11,6 +11,7 @@
 main {
   @include outer-container;
   margin: 4em auto;
+  padding: 0 1em;
 }
 
 .content-wrapper {

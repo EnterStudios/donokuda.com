@@ -1,6 +1,6 @@
 .portfolio-header {
   border-bottom: $base-border;
-  padding: 1.25em 0;
+  padding: 1.25em 1em;
 
   h1 {
     font-family: $sans-serif;
@@ -48,19 +48,19 @@
     }
   }
 
+  li {
+    display: inline;
+
+    & ~ li {
+      margin-left: 2em;
+    }
+  }
+
   @include media($large-screen-up) {
     @include span-columns(4);
     @include inline-block;
     float: none;
     text-align: right;
     vertical-align: middle;
-
-    li {
-      display: inline;
-
-      & ~ li {
-        margin-left: 2em;
-      }
-    }
   }
 }
