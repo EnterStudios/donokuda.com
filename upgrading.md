@@ -20,5 +20,12 @@ Put back Typekit tags
 `npm install --save-dev ember-marked`
 (https://github.com/huafu/ember-marked)
 
+`npm install ember-cli-deploy --save-dev`
+`npm install ember-deploy-s3 --save-dev`
+`npm install ember-deploy-s3-index --save-dev`
+http://kerrygallagher.co.uk/deploying-an-ember-cli-application-to-amazon-s3/
+https://github.com/ember-cli/ember-cli-deploy
+
 `bower install --save-dev bourbon`
 `bower install --save-dev neat`
+

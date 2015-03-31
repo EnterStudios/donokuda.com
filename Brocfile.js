@@ -2,7 +2,11 @@
 
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
-var app = new EmberApp();
+var app = new EmberApp({
+  fingerprint: {
+    prepend: '//donokuda.com.s3-website-us-west-1.amazonaws.com/'
+  }
+});
 
 // Use `app.import` to add additional libraries to the generated
 // output files.

@@ -1,0 +1,19 @@
+{
+  "development": {
+    "store": {
+      "type": "S3",
+      "accessKeyId": "<key>",
+      "secretAccessKey": "<key>",
+      "bucket": "<index bucket>",
+      "region": "us-west-1"
+    },
+
+    "assets": {
+      "type": "s3",
+      "accessKeyId": "<key>",
+      "secretAccessKey": "<key>",
+      "bucket": "<assets bucket>",
+      "region": "us-west-1"
+    }
+  }
+}
