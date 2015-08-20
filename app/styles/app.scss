@@ -3,6 +3,7 @@
 @import "base/grid-settings";
 @import "neat";
 @import "base/base";
+@import "ui";
 
 .bg-brown {
   background-color: #EDEAE3;
@@ -95,4 +96,27 @@
 
 .kind-of-hidden {
   opacity: 0.1;
+}
+
+.ui-object {
+  border: 1px solid #000;
+  background-color: #fff;
+  display: inline-block;
+  font-family: $mono-font-family;
+  font-size: 0.75rem;
+  padding: 1px;
+
+  &__icon {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    height: 18px;
+    text-align: center;
+    width: 18px;
+  }
+
+  &__label {
+    display: inline-block;
+    margin: 0 0.25em;
+  }
 }

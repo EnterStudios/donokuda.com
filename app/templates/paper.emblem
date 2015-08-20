@@ -1,2 +1,5 @@
-p
-  | Hello from paper
+.ui-object
+  .ui-object__icon
+    | {}
+  .ui-object__label
+    | works
