@@ -1,5 +1,23 @@
-.ui-object
-  .ui-object__icon
-    | {}
-  .ui-object__label
-    | works
+.ui-patch
+  header.ui-patch__header
+    .ui-patch__icon
+      | []
+    .ui-patch__label
+      | works
+
+.ui-patch
+  header.ui-patch__header
+    .ui-patch__icon
+      | {}
+    .ui-patch__label
+      | view_details
+  section.ui-patch__content
+    .ui-patch-list
+      a.ui-patch-list__item.ui-patch-list__item--selected href="#"
+        | Coveralls
+      a.ui-patch-list__item href="#"
+        | Hound
+      a.ui-patch-list__item href="#"
+        | Ship.io
+      a.ui-patch-list__item href="#"
+        | Project
