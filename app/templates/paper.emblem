@@ -1,23 +1,44 @@
-.ui-patch
-  header.ui-patch__header
-    .ui-patch__icon
-      | []
-    .ui-patch__label
-      | works
 
-.ui-patch
-  header.ui-patch__header
-    .ui-patch__icon
-      | {}
-    .ui-patch__label
-      | view_details
-  section.ui-patch__content
-    .ui-patch-list
-      a.ui-patch-list__item.ui-patch-list__item--selected href="#"
-        | Coveralls
-      a.ui-patch-list__item href="#"
-        | Hound
-      a.ui-patch-list__item href="#"
-        | Ship.io
-      a.ui-patch-list__item href="#"
-        | Project
+article.program.stripe-bg
+  .content
+    .col--6
+      x-patch
+        .ui-patch
+          header.ui-patch__header
+            .ui-patch__icon
+              | T
+            .ui-patch__label
+              | about
+      x-patch
+        .ui-patch
+          header.ui-patch__header
+            .ui-patch__icon
+              | fx
+            .ui-patch__label
+              | return
+    .col--6
+      .program__output
+        h1 Hi. I'm Don!
+        p I’m a product designer based in San Francisco.
+        p Previously, I worked at consultancies such as thoughtbot, inc. and LEMUR Heavy Industries.
+        p Before that, I studied Graphic Design at Otis College of Art & Design.
+
+article.program.stripe-bg
+  .content
+    .col--6
+      .ui-patch
+        header.ui-patch__header
+          .ui-patch__icon
+            | {}
+          .ui-patch__label
+            | view_details
+        section.ui-patch__content
+          .ui-patch-list
+            a.ui-patch-list__item.ui-patch-list__item--selected href="#"
+              | Coveralls
+            a.ui-patch-list__item href="#"
+              | Hound
+            a.ui-patch-list__item href="#"
+              | Ship.io
+            a.ui-patch-list__item href="#"
+              | Project

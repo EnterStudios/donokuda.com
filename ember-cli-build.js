@@ -7,21 +7,9 @@ module.exports = function(defaults) {
     // Add options here
   });
 
-  app.import('bower_components/paper/dist/paper-full.js', {
-    exports: {
-      'paper': [
-          'default'
-      ]
-    }
-  });
+  app.import('bower_components/paper/dist/paper-full.js');
+  app.import('bower_components/interact.js/interact.js');
 
-  app.import('bower_components/interact.js/interact.js', {
-    exports: {
-      'interact': [
-          'default'
-      ]
-    }
-  });
   //
   // Use `app.import` to add additional libraries to the generated
   // output files.

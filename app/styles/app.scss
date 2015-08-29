@@ -16,7 +16,6 @@
 .content {
   @include outer-container;
   @include media($medium-screen-up) {
-    padding: 0rem 4rem;
   }
 }
 
@@ -147,5 +146,32 @@
       background-color: #000;
       color: #fff;
     }
+  }
+}
+
+.stripe-bg {
+  background-image: linear-gradient(-90deg, #fff, #fff 50%, $tan-light 50%, $tan-light 100%);
+  position: relative;
+
+  &::after {
+    background-color: #fff;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+  }
+}
+
+.col--6 {
+  @include span-columns(6 of 12);
+}
+
+.program {
+  padding: 4rem 0;
+
+  &__output {
+    padding-left: 1rem;
   }
 }

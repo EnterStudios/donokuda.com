@@ -1,10 +1,11 @@
 // Typography
-$base-font-family: "fira-sans", $helvetica;
 $mono-font-family: "fira-mono", $monospace;
+$sans-font-family: "fira-sans", $helvetica;
+$base-font-family: $mono-font-family;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 1.125em;
+$base-font-size: 0.875em;
 
 // Line height
 $base-line-height: 1.5;
@@ -21,10 +22,10 @@ $blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
-$tan-light: #E8E5DB;
+$tan-light: #FEF1E7;
 
 // Font Colors
-$base-background-color: $tan-light;
+$base-background-color: #fff;
 $base-font-color: $dark-gray;
 $action-color: $blue;
 
