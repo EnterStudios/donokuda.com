@@ -1,79 +1,43 @@
-section.section--padded
+article.program.stripe-bg
   .content
-    h1.title Hello! I'm Don Okuda!
-    h2.title.title--secondary
-      | I'm a <a href="//en.wikipedia.org/wiki/Product_design">product designer</a>
-        based in San Francisco, CA.
-      br
-      | Previously, I was a product designer at <a href="//thoughtbot.com"> thoughtbot, inc.</a>
-      br
-      | Before that, I studied <a href="//en.wikipedia.org/wiki/Graphic_design">graphic design</a>
-        at <a href="//otis.edu"> Otis College of Art &amp; Design.</a>
+    .col--6
+      x-patch
+        .ui-patch
+          header.ui-patch__header
+            .ui-patch__icon
+              | T
+            .ui-patch__label
+              | about
+      x-patch
+        .ui-patch
+          header.ui-patch__header
+            .ui-patch__icon
+              | fx
+            .ui-patch__label
+              | return
+    .col--6
+      .program__output
+        h1 Hi. I'm Don!
+        p I’m a product designer based in San Francisco.
+        p Previously, I worked at consultancies such as thoughtbot, inc. and LEMUR Heavy Industries.
+        p Before that, I studied Graphic Design at Otis College of Art & Design.
 
-section.bg-brown.section--padded
+article.program.stripe-bg
   .content
-    section
-      .row
-        figure.project-item
-          a.project-item__thumbnail-container href="#"
-            img.project-item__thumbnail src="http://placekitten.com/g/500/500"
-
-          figcaption
-            strong Explore
-            br
-            | Like something but for something else.
-
-        figure.project-item
-          a.project-item__thumbnail-container href="#"
-            img.project-item__thumbnail src="http://placekitten.com/g/500/500"
-
-          figcaption
-            strong Explore
-            br
-            | Like something but for something else.
-
-        figure.project-item
-          a.project-item__thumbnail-container href="#"
-            img.project-item__thumbnail src="http://placekitten.com/g/500/500"
-
-          figcaption
-            strong Explore
-            br
-            | Like something but for something else.
-
-        figure.project-item
-          a.project-item__thumbnail-container href="#"
-            img.project-item__thumbnail src="http://placekitten.com/g/500/500"
-
-          figcaption
-            strong Coveralls
-            br
-            | Like TravisCI, but for code style.
-
-      .row style="margin-top: 4rem"
-        h3.title.title--tertiary Other Notable Works
-        dl.inline-key-list
-          dt.inline-key-list__key
-            a href="#" The Email Toolbox
-          dd.inline-key-list__value Like Slackbot, but for Email
-
-          dt.inline-key-list__key
-            a href="#" Asphalt
-          dd.inline-key-list__value A Sass file generator for Rails.
-
-          dt.inline-key-list__key
-            a href="#" Action Tobacco Prevention
-          dd.inline-key-list__value A resource site for the Los Angeles County Department of Health.
-
-section.section--padded
-  .content
-    h1.title Get in touch!
-    p
-      | I blurt useless things on Twitter, force-push code to GitHub, crop
-        designs on Dribbble, and drop the bass on Soundcloud. You can also email
-        me if that's your thing.
-
-footer
-  .content.kind-of-hidden
-    p DO: Be nice.
-    p DON'T: Be an asshole.
+    .col--6
+      .ui-patch
+        header.ui-patch__header
+          .ui-patch__icon
+            | {}
+          .ui-patch__label
+            | view_details
+        section.ui-patch__content
+          .ui-patch-list
+            a.ui-patch-list__item.ui-patch-list__item--selected href="#"
+              | Coveralls
+            a.ui-patch-list__item href="#"
+              | Hound
+            a.ui-patch-list__item href="#"
+              | Ship.io
+            a.ui-patch-list__item href="#"
+              | Project
