@@ -16,6 +16,7 @@
     "neat": "~1.7.2",
     "normalize.css": "3.0.3",
     "paper": "~0.9.23",
-    "interact.js": "~1.2.4"
+    "interact.js": "~1.2.4",
+    "ember-data.model-fragments": "0.4.1"
   }
 }
