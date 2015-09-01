@@ -1,0 +1,6 @@
+.ui-patch
+  header.ui-patch__header
+    .ui-patch__icon
+      | T
+    .ui-patch__label
+      | about
