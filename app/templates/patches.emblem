@@ -1,1 +1,8 @@
-= outlet
+h1 Patches
+
+each model as |patch|
+  article
+    p = patch.name
+    ul
+      each patch.nodes as |node|
+        li = node.value

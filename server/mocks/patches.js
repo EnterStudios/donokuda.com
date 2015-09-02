@@ -4,7 +4,27 @@ module.exports = function(app) {
 
   patchesRouter.get('/', function(req, res) {
     res.send({
-      'patches': []
+      'patches': [
+        {
+          'id': 0,
+          'name': 'hello_world.swf',
+          'nodes': [
+            {'positions': { x: '0', y: '0' }, 'value': 'Hello World'},
+            {'positions': { x: '100', y: '100' }, 'value': 'print'},
+            {'positions': { x: '200', y: '200' }, 'value': 'outlet'}
+          ]
+        },
+
+        {
+          'id': 1,
+          'name': 'another test',
+          'nodes': [
+            {'positions': { x: '0', y: '0' }, 'value': 'Another Test'},
+            {'positions': { x: '100', y: '100' }, 'value': 'print'},
+            {'positions': { x: '200', y: '200' }, 'value': 'outlet'}
+          ]
+        }
+      ]
     });
   });
 
@@ -16,12 +36,6 @@ module.exports = function(app) {
     res.send({
       'patches': {
         id: req.params.id,
-        'name': 'hello_world.swf',
-        'objects': [
-          {id: 0, 'pos': [0, 0], 'value': 'Hello World'},
-          {id: 1, 'pos': [100, 100], 'value': 'print', 'inlet': [0]},
-          {id: 2, 'pos': [200, 200], 'value': 'outlet', 'inlet': [1]}
-        ]
       }
     });
   });

@@ -2,5 +2,5 @@ import DS from 'ember-data';
 
 export default DS.Model.extend({
   name: DS.attr('string'),
-  objects: DS.hasManyFragments('object')
+  nodes: DS.hasManyFragments('node')
 });
